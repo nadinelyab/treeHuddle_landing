@@ -1,0 +1,85 @@
+/* your styles go here */
+
+/*treeHuddle fonts*/
+
+/*Bellota fonts*/
+@font-face {
+    font-family: Bellota-Regular;
+    src: url('fonts/Bellota-Regular.otf');
+}
+
+@font-face {
+    font-family: Bellota-Light;
+    src: url('fonts/Bellota-Light.otf');
+}
+
+@font-face {
+    font-family: Bellota-Bold;
+    src: url('fonts/Bellota-Bold.otf');
+}
+
+@font-face {
+    font-family: Bellota-BoldItalic;
+    src: url('fonts/Bellota-BoldItalic.otf');
+}
+
+/*Caviar fonts*/
+
+@font-face {
+    font-family: CaviarDreams;
+    src: url('fonts/CaviarDreams.otf');
+}
+
+@font-face {
+    font-family: CaviarDreams_Bold;
+    src: url('fonts/CaviarDreams_Bold.otf');
+}
+
+@font-face {
+    font-family: CaviarDreams_BoldItalic;
+    src: url('fonts/CaviarDreams_Bold.otf');
+}
+
+
+.main .cursive {
+  margin-top: 0px;
+  font-family: 'Bellota-Regular', Arial;
+  font-size: 70px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.cursive_small {
+   margin-top: 0px;
+  font-family: 'Bellota-Regular', Arial;
+  font-size: 20px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+
+
+.mailing-list{
+  margin-top: 0px;
+  margin-bottom: 100px;
+  /*display: inline-block;*/
+  text-align: left;
+
+}
+
+
+
+.tHslogan {
+  margin-top: 0px;
+  font-family: 'Bellota-Regular', Arial;
+  font-size: 60px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+
+
+

@@ -12,15 +12,35 @@
  *
  *= require ionicons
  *= require_tree .
- *= require ionicons.min
- *= require style
+ *= require font-awesome
+ *= require style.default
+ *= require custom
  *= require_self
  */
-.text_box{
-	color: black;
-	font-size: 21px;
-    width: 158px;
-}
-.btn-conf{
-	font-size: 21px;
+
+ .main .textbox{
+ 	border: none;
+ 	background: none;
+ 	border-bottom-style: solid;
+ 	width: 120px !important;
+ 	font-size: 20px;
+ 	font-family: Bellota-Regular;
+ }
+
+ .text{
+ 	color: white;  
+ 	font-size: 20px; 
+ 	font-family: Bellota-Regular;
+ 	padding-right: 20px;
+ }
+
+.suscribe {
+	width:100px !important;
+	background: #a5ce44;
+	border-color: #a5ce44;
+	border-radius: 21px;
+    color: black;
+    text-transform: none;
+    font-size: 21px;
+    font-family: Bellota-Regular;
 }

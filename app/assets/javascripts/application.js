@@ -7,5 +7,8 @@
 //= require jquery
 //= require jquery_ujs
 //= require twitter/bootstrap
-//= require ie10-viewport-bug-workaround
+//= require main
+//= require respond.min
+//= require retina-1.1.0
+//= require front
 //= require_tree .
