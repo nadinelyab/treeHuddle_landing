@@ -10,36 +10,32 @@
         <p class="social"><font color="black"><a href="http://facebook.com/treehuddle" title="treeHuddle" ><img src="img/facebook.png" style="width:50px"></a>
           <!--<a href="#" title="" class="twitter"><i class="fa fa-twitter"></i></a> -->
         </p>
-      <div><%= embedded_svg "tH_v3.svg", class:"tHlogo" %></div>
+      <div style="margin-bottom: 20px"><%= embedded_svg "tH_v3.svg", class:"tHlogo" %></div>
       <!-- <h1 class="cursive_small">Don't struggle, <span style="color:#12a084">huddle</span></h1> -->
-        <h2 class="sub"> 
-          <br>Out of a need and a frustration of
-          <br>how much easier student life and
-          <br>academics were by colloborating 
-          <br> with one another. 
+      <span style="display:inline-block; width:50%">
+        <h2 class="sub">
+          Out of a need and a frustration of
+          how much easier student life and
+          academics were by colloborating 
+          with one another. 
 
-          <br>
-          <br>We decided it was about time there
-          <br>was a platform to find, share and 
-          <br>create study groups on fly. </h2>
+          <br><br>
+          We decided it was about time there
+          was a platform to find, share and 
+          create study groups on fly.</h2><br>
 
       <h1>coming soon</h1>
+      </span>
         
 
-        <div class="mailing-list">
-          <h3 class="mailing-list-heading">Join Stanford's only student group platform</h3>
-          <div class="row">
-            <form class="form-inline">
-              <div class="form-group">
-                        	<%= form_for @user do |f| %>
-				<%= f.text_field :email, class: "form-control transparent textbox"%><span class="text">@stanford.edu</span></div>
+        <span style="float:right">
+          <h2 class="sub">Join Stanford's only <br> student group platform</h2>
+        <%= form_for @user do |f| %>
+				<%= f.text_field :email, class: "form-control transparent textbox"%><span class="text">@stanford.edu</span>
 				<%= f.submit 'Huddle', class: "btn suscribe"%>
 			<% end %>
-            </form>
-          </div>
-        </div>
       
-      </div>
+      </span>
       
       <div class="footer">
         <div class="container">
@@ -51,8 +47,7 @@
 
             <div class="col-md-6">
 
-              <p class="credit">&copy;2016 treeHuddle    <br>    orginally by 
-                <a href="https://bootstrapious.com">Bootstrapious.com</a></p>
+              <p class="credit">&copy;2016 treeHuddle</p>
                <!-- Not removing these links is part of the license conditions of the template. Thanks for understanding :) If you want to use the template without the attribution links, you can do so after supporting further themes development at https://bootstrapious.com/donate  -->
             </div>
           </div>
