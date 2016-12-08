@@ -22,26 +22,66 @@
  	border: none;
  	background: none;
  	border-bottom-style: solid;
- 	width: 120px !important;
- 	font-size: 20px;
+ 	width:170px !important;
+ 	font-size: 25px;
  	font-family: Bellota-Regular;
  	display: inline;
+ 	border-radius: 0px;
+ }
+
+ .form-control:focus{
+ 	box-shadow: none;
  }
 
  .text{
  	color: white;  
- 	font-size: 20px; 
+ 	font-size: 25px; 
  	font-family: Bellota-Regular;
- 	padding-right: 20px;
+ 	padding-right: 30px;
  }
 
 .suscribe {
-	width:100px !important;
 	background: #a5ce44;
 	border-color: #a5ce44;
-	border-radius: 21px;
-    color: black;
+	border-radius: 30px;
+    color: white;
     text-transform: none;
-    font-size: 21px;
+    font-size: 20px;
+    font-family: Avenir;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.sub{
+	font-family: Bellota-Regular;
+}
+
+.title {
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+
+.image {
+	width: 130px;
+    border-radius: 9px;
+}
+
+.intro{
+	font-family: Avenir;
+	font-size: 20px;
+	width: 50%;
+	color: white;
+}
+
+.bold {
+	font-family: Avenir;
+	font-size: 20px;
+	font-weight: bold;
+}
+.footer{
+	background-color: #12A084;
+    height: 80px;
     font-family: Bellota-Regular;
+    padding: 20px;
+    font-size: 20px;
 }
