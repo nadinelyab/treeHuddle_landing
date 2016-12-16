@@ -7,12 +7,12 @@
       </video>
       <div class="overlay"></div>
       <div class="container">
-        <p class="social"><font color="black"><a href="http://facebook.com/treehuddle" title="treeHuddle" ><img src="img/facebook.png" style="width:50px"></a>
+        <p class="social"><font color="black"><a href="http://facebook.com/treehuddle" title="treeHuddle" ><%= image_tag "facebook.png", style:"width:50px"%></a>
           <!--<a href="#" title="" class="twitter"><i class="fa fa-twitter"></i></a> -->
         </p>
-      <div style="margin-bottom: 20px"><%= embedded_svg "tH_v3.svg", class:"tHlogo" %></div>
+      <div style="margin-bottom: 70px"><%= embedded_svg "tH_v3.svg", class:"tHlogo" %></div>
       <!-- <h1 class="cursive_small">Don't struggle, <span style="color:#12a084">huddle</span></h1> -->
-      <span style="display:inline-block; width:50%">
+      <span style="display:inline-block; width:50%; margin-bottom: 100px">
         <p style="font-family: Avenir; font-size: 30px; color: white">
           Out of a frustration at
           how much easier student life and
@@ -25,7 +25,7 @@
       </span>
         
 
-        <span style="float:right">
+        <span class="sub-box">
         <h2 class="sub">study smarter,</h2><br>
         <h3 class="sub">join amazing people:</h3>
         <%= form_for @user do |f| %>
@@ -39,17 +39,17 @@
       <div style="height:450px">
       <h2 class="sub title">Meet the team</h2>
       <br>
-      <span style= "float: left;width: 50%;margin-right: 25px;"><%= image_tag "Paul.jpg", class:"image", style:"margin-left: 40%"%><br>
+      <span style= "float: left;width: 50%;margin-right: 25px; margin-top: 50px; margin-bottom: 50px"><%= image_tag "Paul.jpg", class:"image", style:"margin-left: 40%; margin-bottom:30px"%><br>
         <span class="intro"><strong>Paul Harrison </strong> is a technology enthusiast ranging from building a smart lighting system to keeping up with the latest startups. During his free time you'll find him cycling or fixing up his motorbike, that's when he's not practicing piano or jamming on his guitar.</span>
       </span>
-      <span style="margin-left: 25px"><%= image_tag "Nadin.jpg", class:"image", style:"margin-left:190px"%><br>
+      <span style="margin-left: 25px"><%= image_tag "Nadin.jpg", class:"image", style:"margin-left:190px; margin-top: 68px; margin-bottom: 30px"%><br>
         <span class="intro"><strong>Nadin El-Yabroudi </strong> dreams of going to space and becoming her version of Michelle Obama. From abstract algebra to her endless logic puzzles and 10k charity runs, you'll most probably catch her playing the violin.</span>
       </span>
       </div>
 
-      <div style="width:50%">
+      <div style="width:50%; margin-bottom: 100px">
       <h2 class="sub title"> Want to help?</h2><br>
-            <svg width="231px" height="230px" viewBox="122 1349 231 230" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <svg style = "margin: 30px" width="231px" height="230px" viewBox="122 1349 231 230" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
           <desc>Created with Sketch.</desc>
           <defs>
@@ -67,8 +67,13 @@
       </svg><br>
       <span class="intro"><strong>You</strong> can help us make this the greatest student and social group creation platform ever. From Ruby on Rails to flat design, if you're interested we would love to hear from you!</span>
       </div>
+
+     <div class="footerRow">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6"></div></div></div></div>
       
-      <div class="footer">
+   <div class="footer">
         <div class="container">
           <div class="row">
             <div class="col-md-6">
@@ -80,9 +85,8 @@
             <span class="credit">feedback</span>
             <span class="credit">Privacy</span>
               <span class="credit">join!</span>
-               <!-- Not removing these links is part of the license conditions of the template. Thanks for understanding :) If you want to use the template without the attribution links, you can do so after supporting further themes development at https://bootstrapious.com/donate  -->
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </div> 
+    </div> 
