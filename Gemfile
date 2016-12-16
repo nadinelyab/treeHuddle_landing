@@ -30,6 +30,8 @@ gem "twitter-bootstrap-rails"
 gem "font-ionicons-rails"
 
 gem "inline_svg"
+
+gem 'rails_12factor'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
